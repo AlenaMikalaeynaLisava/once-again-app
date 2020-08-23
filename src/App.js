@@ -1,6 +1,8 @@
 import React from 'react';
-import Calculator from './components/Calculator'
-import Output from './components/Output'
+import Calculator from './components/Calculator';
+import Output from './components/Output';
+//import Counter from './components/Counter';
+
 import './App.css';
 
 function App() {
@@ -8,24 +10,15 @@ function App() {
     <div className="App">
       <Calculator />
       <Output />
+      {/* <Counter
+      // value={store.getState()}
+      // onIncrement={() => action('INCREMENT')}
+      // onDecrement={() => action('DECREMENT')}
+      // onIncrementAsync={() => action('INCREMENT_ASYNC')} 
+      />, */}
     </div>
   );
 }
 
 export default App;
 
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
