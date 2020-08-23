@@ -1,7 +1,8 @@
 import React from 'react';
 import Calculator from './components/Calculator';
 import Output from './components/Output';
-//import Counter from './components/Counter';
+import Show from "./components/Show";
+
 
 import './App.css';
 
@@ -10,12 +11,7 @@ function App() {
     <div className="App">
       <Calculator />
       <Output />
-      {/* <Counter
-      // value={store.getState()}
-      // onIncrement={() => action('INCREMENT')}
-      // onDecrement={() => action('DECREMENT')}
-      // onIncrementAsync={() => action('INCREMENT_ASYNC')} 
-      />, */}
+      <Show />
     </div>
   );
 }
