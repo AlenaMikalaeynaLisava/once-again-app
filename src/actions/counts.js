@@ -15,7 +15,12 @@ export const multiplyNumber = (number) => ({
     payload: number,
 });
 
-export const devisionNumber = (number) => ({
+export const divisionNumber = (number) => ({
     type: DIVISION,
     payload: number,
+});
+
+export const refreshNumber = (number) => ({
+  type: REFRESH,
+  payload: number,
 });

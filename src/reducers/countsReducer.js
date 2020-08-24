@@ -1,4 +1,4 @@
-import {ADD, MINUS, MULTIPLY, DIVISION} from "../constants/counts"
+import {ADD, MINUS, MULTIPLY, DIVISION} from "../constants/counts";
 
 const initialState = 0;
 const reducer = (state = initialState, action)=>{ 

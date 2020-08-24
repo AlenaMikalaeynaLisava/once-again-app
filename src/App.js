@@ -1,10 +1,9 @@
-import React from 'react';
-import Calculator from './components/Calculator';
-import Output from './components/Output';
+import React from "react";
+
+import "./App.css";
+import Calculator from "./components/Calculator";
+import Output from "./components/Output";
 import Show from "./components/Show";
-
-
-import './App.css';
 
 function App() {
   return (

@@ -1,7 +1,6 @@
-import {call, put} from "redux-saga/effects"
-import {getShow as getShowAPI} from '../../api/show'
-import {setShow} from '../../actions/shows'
-
+import { call, put } from "redux-saga/effects";
+import { getShow as getShowAPI } from "../../api/show";
+import { setShow } from "../../actions/shows";
 
 export function* getShow(action) {
   if (action.payload) {
