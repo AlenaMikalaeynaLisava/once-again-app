@@ -1,4 +1,4 @@
-import {ADD, MINUS, MULTIPLY, DIVISION} from "../constants/counts";
+import {ADD, MINUS, MULTIPLY, DIVISION, REFRESH} from "../constants/counts";
 
 const initialState = 0;
 const reducer = (state = initialState, action)=>{ 
@@ -11,6 +11,8 @@ const reducer = (state = initialState, action)=>{
             return state * action.payload;
         case DIVISION:
             return state / action.payload;
+        case REFRESH:
+            return 0;    
         default:
             return state;
     }

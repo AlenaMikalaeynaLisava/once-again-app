@@ -1,4 +1,4 @@
-import {ADD, MINUS, MULTIPLY, DIVISION} from "../constants/counts"
+import {ADD, MINUS, MULTIPLY, DIVISION, REFRESH} from "../constants/counts"
 
 export const addNumber = (number) => ({
   type: ADD,
